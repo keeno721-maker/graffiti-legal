@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GraFeeti — Privacy Policy</title>
+<style>
+  :root { --ink:#1a1a1a; --ink2:#555; --rule:#e2e2e2; --accent:#1D9E75; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:2rem 1.25rem 5rem; font:16px/1.65 -apple-system,BlinkMacSystemFont,
+         "Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:#fff; }
+  main { max-width:44rem; margin:0 auto; }
+  h1 { font-size:1.9rem; margin:0 0 .25rem; letter-spacing:-.02em; }
+  h2 { font-size:1.15rem; margin:2.25rem 0 .6rem; padding-top:1.1rem;
+       border-top:1px solid var(--rule); letter-spacing:-.01em; }
+  h3 { font-size:1rem; margin:1.4rem 0 .4rem; }
+  .sub { color:var(--ink2); margin:0 0 .4rem; }
+  .updated { color:var(--ink2); font-size:.875rem; margin:0 0 2rem; }
+  table { border-collapse:collapse; width:100%; margin:.9rem 0; font-size:.94rem; }
+  th,td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--rule);
+          vertical-align:top; }
+  th { font-size:.78rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink2); }
+  code { background:#f4f4f4; padding:.1rem .3rem; border-radius:3px; font-size:.9em; }
+  .callout { border-left:3px solid var(--accent); background:#f4fbf8;
+             padding:.85rem 1rem; margin:1.1rem 0; border-radius:0 4px 4px 0; }
+  ul { padding-left:1.15rem; } li { margin:.3rem 0; }
+  footer { margin-top:3rem; padding-top:1.1rem; border-top:1px solid var(--rule);
+           color:var(--ink2); font-size:.875rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>GraFeeti Privacy Policy</h1>
+<p class="sub">GraFeeti is a GPS running game played across Massachusetts.</p>
+<p class="updated">Last updated: 26 September 2026</p>
+
+<p>This policy describes what GraFeeti collects, why, who it is shared with, and how
+to delete it. It covers the GraFeeti iOS app and its Apple Watch companion.</p>
+
+<div class="callout">
+  <strong>The short version.</strong> GraFeeti records your runs so it can score them.
+  That means location data, including while the app is in the background during a run.
+  Your data is not sold, is not used for advertising, and is not shared with data
+  brokers or analytics companies. You can delete your account, and everything that
+  identifies you, from inside the app at any time.
+</div>
+
+<h2>What is collected</h2>
+
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Location, including background location</strong><br>
+        GPS coordinates during a run: the route, start and end points, and distance.</td>
+    <td>To measure how far you ran and to detect when you pass within 75 metres of a
+        pin. Background access is required because a run continues with the screen
+        off and the phone in a pocket. Collected only while a run is active — GraFeeti
+        does not track you between runs.</td>
+  </tr>
+  <tr>
+    <td><strong>Email address</strong></td>
+    <td>To create and sign in to your account, and to reset your password.</td>
+  </tr>
+  <tr>
+    <td><strong>Username and profile tag</strong><br>
+        Your chosen name and the graffiti tag you draw.</td>
+    <td>Shown publicly on leaderboards, pin walls and the activity feed. This is the
+        point of the game.</td>
+  </tr>
+  <tr>
+    <td><strong>Run history</strong><br>
+        Distance, duration, pace, date, and which pins you reached.</td>
+    <td>To calculate street cred, XP and monthly standings.</td>
+  </tr>
+  <tr>
+    <td><strong>Motion and fitness activity</strong></td>
+    <td>To improve GPS accuracy and distinguish running from travelling by vehicle.</td>
+  </tr>
+</table>
+
+<p>GraFeeti does not collect contacts, photos, microphone audio, advertising
+identifiers, or your device's address book. There is no analytics SDK and no
+advertising SDK in the app.</p>
+
+<h2>Apple Health</h2>
+
+<p>If you grant permission, GraFeeti <strong>writes</strong> your completed runs to
+Apple Health: the workout, distance, active energy burned, and the route.</p>
+
+<div class="callout">
+  <strong>GraFeeti does not read any data from Apple Health.</strong> Health access is
+  write-only. The app cannot see your heart rate, weight, sleep, steps, medical records
+  or any other health information, and it does not request permission to.
+  <br><br>
+  Health data is never used for advertising, never used for marketing, and is never
+  shared with, sold to, or disclosed to any third party, including data brokers.
+  It is not used for any purpose other than recording your run in Apple Health on
+  your own device.
+</div>
+
+<p>Health permission is optional. Declining it does not affect anything else in the
+app. You can revoke it at any time in the iOS Health app under Sharing → Apps.</p>
+
+<h2>What your location is used for, and what it is not</h2>
+
+<p>Location is used to score runs and nothing else. It is not used to build an
+advertising profile, is not sold, and is not shared with data brokers.</p>
+
+<h3>Your run start and end points</h3>
+<p>Because a run often starts at home, GraFeeti trims the beginning and end of your
+route before showing it to anyone else. This is on by default. You can change it in
+the app. Other users never see your untrimmed start or end point.</p>
+
+<h2>Who your data is shared with</h2>
+
+<table>
+  <tr><th>Recipient</th><th>What they receive</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Supabase</strong><br>database and authentication hosting</td>
+    <td>Your account, runs, allocations and tag.</td>
+    <td>They store the data on GraFeeti's behalf. They do not use it for their own
+        purposes.</td>
+  </tr>
+  <tr>
+    <td><strong>Open-Meteo</strong><br>weather</td>
+    <td>Your approximate coordinates, rounded to three decimal places (roughly 110
+        metres), with no account or device identifier attached.</td>
+    <td>To show current conditions. The request is anonymous and cannot be tied back
+        to you.</td>
+  </tr>
+  <tr>
+    <td><strong>Pollinations</strong><br>image generation, only if you use it</td>
+    <td>The text prompt you type in the Tag Studio. No location, no account
+        identifier.</td>
+    <td>To generate artwork for your tag. Used only when you press generate.</td>
+  </tr>
+</table>
+
+<p><strong>Your data is never sold.</strong> It is not shared with advertisers,
+analytics providers, or data brokers.</p>
+
+<h2>What other players can see</h2>
+
+<ul>
+  <li>Your username, tag, rank, street cred, XP, and total miles.</li>
+  <li>Your runs in the activity feed — distance, duration, date and pins reached.</li>
+  <li>Your route, with the start and end trimmed unless you turn that off.</li>
+</ul>
+<p>Your email address is never shown to other players.</p>
+
+<h2>Deleting your account</h2>
+
+<p>You can delete your account in the app: open your profile, scroll to
+<strong>Account</strong>, and choose <strong>Delete account</strong>. It takes effect
+immediately and cannot be undone.</p>
+
+<p>Deletion permanently removes:</p>
+<ul>
+  <li>your login and email address;</li>
+  <li>your username, profile and graffiti tag;</li>
+  <li>every GPS route, start point and end point you have recorded;</li>
+  <li>your follows.</li>
+</ul>
+
+<p>Finished months keep an anonymised record of the mileage itself, with no name,
+email, account or location attached to it, so that other players' past results do
+not silently change. This residual data cannot be linked back to you or to any
+device, and cannot be used to identify you.</p>
+
+<p>Runs you have already written to Apple Health belong to you and stay on your
+device. Delete them in the Apple Health app if you want them gone.</p>
+
+<h2>Data retention</h2>
+<p>Your account and runs are kept for as long as your account exists. When you delete
+your account, identifying data is removed at that moment rather than on a schedule.</p>
+
+<h2>Children</h2>
+<p>GraFeeti is not directed at children under 13 and does not knowingly collect
+personal information from them. If you believe a child has created an account,
+contact us and it will be removed.</p>
+
+<h2>Security</h2>
+<p>Connections use HTTPS. Passwords are stored as salted hashes by Supabase
+Authentication and are never visible to GraFeeti. No system is perfectly secure, and
+no absolute guarantee is offered.</p>
+
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, export or
+delete your personal data, and to object to certain processing. Deletion is available
+directly in the app. For anything else, contact us using the address below.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes materially, the date at the top will be updated and the
+change will be noted in the app.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy, or a request about your data:
+<a href="mailto:keeno721@gmail.com">keeno721@gmail.com</a></p>
+
+<footer>
+  GraFeeti — Massachusetts. This policy applies to the GraFeeti iOS app and its
+  Apple Watch companion.
+</footer>
+
+</main>
+</body>
+</html>
