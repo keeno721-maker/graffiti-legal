@@ -34,7 +34,7 @@
 
 <h1>GraFeeti Privacy Policy</h1>
 <p class="sub">GraFeeti is a GPS running game played across Massachusetts.</p>
-<p class="updated">Last updated: 26 September 2026</p>
+<p class="updated">Last updated: 27 October 2026</p>
 
 <p>This policy describes what GraFeeti collects, why, who it is shared with, and how
 to delete it. It covers the GraFeeti iOS app and its Apple Watch companion.</p>
@@ -78,30 +78,49 @@ to delete it. It covers the GraFeeti iOS app and its Apple Watch companion.</p>
     <td><strong>Motion and fitness activity</strong></td>
     <td>To improve GPS accuracy and distinguish running from travelling by vehicle.</td>
   </tr>
+  <tr>
+    <td><strong>Heart rate, distance and active energy</strong><br>
+        Apple Watch only, and only while a run is in progress.</td>
+    <td>To show them on the watch during the run and record them into the finished
+        workout. See <a href="#health">Apple Health</a> below.</td>
+  </tr>
 </table>
 
 <p>GraFeeti does not collect contacts, photos, microphone audio, advertising
 identifiers, or your device's address book. There is no analytics SDK and no
 advertising SDK in the app.</p>
 
-<h2>Apple Health</h2>
+<h2 id="health">Apple Health</h2>
 
 <p>If you grant permission, GraFeeti <strong>writes</strong> your completed runs to
 Apple Health: the workout, distance, active energy burned, and the route.</p>
 
+<p>On your <strong>iPhone</strong>, GraFeeti reads nothing from Apple Health. It does
+not request read permission at all.</p>
+
+<p>On your <strong>Apple Watch</strong>, GraFeeti reads three things, and only while a
+run is actually in progress: <strong>heart rate</strong>, <strong>walking and running
+distance</strong>, and <strong>active energy burned</strong>. These are the values the
+watch shows you during a run and records into the finished workout — Apple's workout
+system cannot save a distance or a calorie figure it has not been allowed to read.
+Nothing is read before a run starts or after it ends.</p>
+
 <div class="callout">
-  <strong>GraFeeti does not read any data from Apple Health.</strong> Health access is
-  write-only. The app cannot see your heart rate, weight, sleep, steps, medical records
-  or any other health information, and it does not request permission to.
+  <strong>GraFeeti cannot see any other health information.</strong> Not your weight,
+  sleep, steps, blood pressure, medical records, or anything else. It does not request
+  permission to, and the three values it does read are listed above.
   <br><br>
   Health data is never used for advertising, never used for marketing, and is never
   shared with, sold to, or disclosed to any third party, including data brokers.
-  It is not used for any purpose other than recording your run in Apple Health on
-  your own device.
+  It is not used for any purpose other than showing your run as it happens and
+  recording it in Apple Health on your own device.
 </div>
 
-<p>Health permission is optional. Declining it does not affect anything else in the
-app. You can revoke it at any time in the iOS Health app under Sharing → Apps.</p>
+<p>Health permission is optional and granted per item, so you can allow some and
+refuse others. Declining does not affect anything else in the app, though a run
+recorded on the watch may then save to Health without a distance or calorie figure.
+You can change any of it at any time in the Health app under your profile picture
+→ Privacy → Apps → GraFeeti.</p>
 
 <h2>What your location is used for, and what it is not</h2>
 
@@ -148,7 +167,8 @@ analytics providers, or data brokers.</p>
   <li>Your runs in the activity feed — distance, duration, date and pins reached.</li>
   <li>Your route, with the start and end trimmed unless you turn that off.</li>
 </ul>
-<p>Your email address is never shown to other players.</p>
+<p>Your email address is never shown to other players. Neither is your heart rate or
+any other health figure — those stay on your own device and in your own Apple Health.</p>
 
 <h2>Deleting your account</h2>
 
